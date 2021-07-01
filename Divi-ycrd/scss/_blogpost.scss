@@ -1,0 +1,327 @@
+.blogposts {
+
+
+    .entry-title,
+    .post-meta,
+    .post-content {
+        width: 50%;
+        float: left;
+        max-width: 732px;
+        padding-left: 90px;
+        padding-right: 99px;
+    }
+
+
+    .et_pb_post {
+        max-height: 357px;
+        -webkit-box-shadow: 7px 7px 18px 1px rgba(207,51,57,0.16); 
+        box-shadow: 7px 7px 18px 1px rgba(207,51,57,0.16);
+    }
+
+    .post-content, .post-content p {
+        font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #0D0D0D !important;
+    }
+
+    .entry-title {
+        font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+        font-size: 18px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #000 !important;
+        -webkit-text-stroke-width: unset !important;
+        -webkit-text-stroke-color: unset !important;
+        margin-top: 74px;
+    }
+
+
+    
+
+    .entry-featured-image-url {
+        height: 357px;
+        overflow: hidden;
+        width: 50%;
+        float: left;
+        margin-bottom: 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            height: auto;
+            width: 100%;
+        }
+    }
+
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Smartphones in portrait mode (0-479px) */
+@media only screen and (max-width: $mobile-max-width) {
+
+
+    .blogposts {
+        .entry-title,
+        .post-meta,
+        .post-content {
+            width: 100%;
+            float: unset;
+            max-width: unset;
+            padding-left: 0;
+            padding-right: 0;
+            padding-left: 13px;
+            padding-right: 13px;
+        }
+    
+        .et_pb_post {
+            max-height: unset;
+            padding-bottom: 13px;
+        }
+    
+        .post-content {
+            font-size: 18px;
+        }
+    
+        .entry-title {
+            font-size: 18px;
+            margin-top: 13px;
+        }
+    
+
+        .entry-featured-image-url {
+    
+            width: unset;
+            height: unset;
+            width: 100%;
+            min-width: unset;
+            float: none;
+            margin-bottom: 0 !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+
+    }
+
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Smartphones in landscape mode (480-768px) */
+@media only screen and (min-width: $mobile-land-min-width) and (max-width: $mobile-land-max-width) {
+    .blogposts {
+        .entry-title,
+        .post-meta,
+        .post-content {
+            width: 100%;
+            float: unset;
+            max-width: unset;
+            padding-left: 0;
+            padding-right: 0;
+            padding-left: 13px;
+            padding-right: 13px;
+        }
+    
+        .et_pb_post {
+            max-height: unset;
+            padding-bottom: 13px;
+        }
+    
+        .post-content {
+            font-size: 18px;
+        }
+    
+        .entry-title {
+            font-size: 18px;
+            margin-top: 13px;
+        }
+    
+
+        .entry-featured-image-url {
+    
+            width: unset;
+            height: unset;
+            width: 100%;
+            min-width: unset;
+            float: none;
+            margin-bottom: 0 !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+
+    }
+
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablets in portrait mode (768-980px) */
+@media only screen and (min-width: $tablet-port-min-width) and (max-width: $tablet-port-max-width) {
+    
+    .blogposts {
+        .entry-title,
+        .post-meta,
+        .post-content {
+            width: 100%;
+            float: unset;
+            max-width: unset;
+            padding-left: 0;
+            padding-right: 0;
+            padding-left: 13px;
+            padding-right: 13px;
+        }
+    
+        .et_pb_post {
+            max-height: unset;
+            padding-bottom: 13px;
+        }
+    
+        .post-content {
+            font-size: 18px;
+        }
+    
+        .entry-title {
+            font-size: 18px;
+            margin-top: 13px;
+        }
+    
+
+        .entry-featured-image-url {
+    
+            width: unset;
+            height: unset;
+            width: 100%;
+            min-width: unset;
+            float: none;
+            margin-bottom: 0 !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+
+    }
+
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablets in landscape mode (981-1100px) */
+@media only screen and (min-width: $tablet-land-min-width) and (max-width: $tablet-land-max-width) {
+    
+    .blogposts {
+        .entry-title,
+        .post-meta,
+        .post-content {
+            width: 100%;
+            float: unset;
+            max-width: unset;
+            padding-left: 0;
+            padding-right: 0;
+            padding-left: 13px;
+            padding-right: 13px;
+        }
+    
+        .et_pb_post {
+            max-height: unset;
+            padding-bottom: 13px;
+        }
+    
+        .post-content {
+            font-size: 18px;
+        }
+    
+        .entry-title {
+            font-size: 18px;
+            margin-top: 13px;
+        }
+    
+
+        .entry-featured-image-url {
+    
+            width: unset;
+            height: unset;
+            width: 100%;
+            min-width: unset;
+            float: none;
+            margin-bottom: 0 !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+
+    }
+
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Laptops and desktops (1100-1405px) */
+@media only screen and (min-width: $desk-min-width) and (max-width: $desk-max-width) {
+
+    .blogposts {
+        .entry-title,
+        .post-meta,
+        .post-content {
+            padding-left: 30px;
+            padding-right: 39px;
+        }
+    }
+
+
+
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Large screens (1405px upwards) */
+@media only screen and (min-width: $large-min-width) {}

@@ -1,0 +1,201 @@
+
+.courseblock_header {
+    &.row {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-between;
+        background-color: #0D0D0D;
+        min-height: 65px;
+
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            width: 100%;
+            min-height: 65px;
+
+            &.copy {
+                max-width: 544px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 20px;
+                padding-right: 20px;
+
+                .dp_field_course_name, .dp_field_course_desc {
+                    word-break: break-all;
+                }
+                
+            }
+
+            &.price {
+                max-width: 162px;
+                background-color: #fff;
+
+                .dp_field_course_price {
+                    width: 100%;
+                }
+            }
+
+            /* in case a more deepth style is needed */
+            /* ------------------------------------- */
+/*             .couse_name {
+
+            }
+
+            .course_desc {
+
+            }
+
+            .couse_price {
+                
+            } */
+
+        }
+    }
+
+
+}
+
+.courseblock_footer {
+    &.row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+        background-color: #fff;
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            min-height: 60px;
+            padding: 8px;
+
+            &.buynow {
+                height: 100%;
+                max-width: 33%;                
+                background-color: #FFE600;
+
+                .dp_field_buy_now {
+                    a {
+                        color: #fff !important;
+                    }
+                }
+            }
+            &.course_com{
+                height: 100%;
+                max-width: 33%;
+
+                &.twocol {
+                    max-width: 50%;
+                }
+            }
+            &.findout {
+                height: 100%;
+                max-width: 33%;
+                background-color:  #CF3338;
+
+                .dp_field_find_out {
+                    a {
+                        color: #fff !important;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Smartphones in portrait mode (0-479px) */
+@media only screen and (max-width: $mobile-max-width) {
+
+
+        
+    .courseblock_header {
+        &.row {
+
+            .col {
+
+                &.copy {
+                    max-width: 75%;
+                }
+
+                &.price {
+                    max-width: 25%;
+                }
+
+            }
+        }
+
+
+    }
+
+
+
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Smartphones in landscape mode (480-768px) */
+@media only screen and (min-width: $mobile-land-min-width) and (max-width: $mobile-land-max-width) {
+
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablets in portrait mode (768-980px) */
+@media only screen and (min-width: $tablet-port-min-width) and (max-width: $tablet-port-max-width) {
+
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablets in landscape mode (981-1100px) */
+@media only screen and (min-width: $tablet-land-min-width) and (max-width: $tablet-land-max-width) {
+
+
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Laptops and desktops (1100-1405px) */
+@media only screen and (min-width: $desk-min-width) and (max-width: $desk-max-width) {
+
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Large screens (1405px upwards) */
+@media only screen and (min-width: $large-min-width) {
+
+
+
+
+
+}

@@ -1,0 +1,128 @@
+.page-students {
+    #main-content {
+        background-color:black!important;
+            .ld-item-list {
+                width: 80%;
+                margin: 0 auto;
+                h3 {
+                    color: #fff;
+                }
+                .ld-lesson-section-heading {
+                    color: #CF3338;
+                }
+            }
+            
+            .learndash-wrapper {
+                .ld-button, .ld-status, .wpProQuiz_button {
+                    border-radius: 0;
+                }
+
+                .ld-course-status {
+                    width: 80%;
+                    margin: 0 auto;
+                }
+
+                .ld-breadcrumbs, .ld-topic-status {
+                    border-radius: 0;
+                    background-color: #0D0D0D;
+                    .ld-breadcrumbs-segments {
+                        a {
+                            color: #fff !important;
+                        }
+                    }
+                }
+                .ld-profile-summary{
+                    .ld-profile-stats{
+                        .ld-profile-stat{
+                            color: #CF3338;
+                            border-right: 1px solid#fff;
+                            span{
+                                color: #fff !important;
+                            }
+                        }
+                    }
+                    .ld-profile-edit-link{
+                        color: #fff !important;
+                    }
+                }  
+                .ld-item-list {
+                    .ld-item-list-item {
+                        border:none;
+                        border-radius: 0;
+                        background: #0D0D0D;
+                    }
+                    .ld-item-list-item {
+                        .ld-item-name {
+                            color: #fff;
+                        }
+                    }
+                    .ld-expand-button {
+                        border-radius: 0;
+                    }
+                }
+                .ld-table-list {
+                    a.ld-table-list-item-preview {
+                        color: #fff;
+                    }
+                }
+                    
+            }
+
+      
+        
+    }
+
+}
+
+.page-students {
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Smartphones in portrait mode (0-479px) */
+@media only screen and (max-width: $mobile-max-width) {}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Smartphones in landscape mode (480-768px) */
+@media only screen and (min-width: $mobile-land-min-width) and (max-width: $mobile-land-max-width) {}
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablets in portrait mode (768-980px) */
+@media only screen and (min-width: $tablet-port-min-width) and (max-width: $tablet-port-max-width) {}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablets in landscape mode (981-1100px) */
+@media only screen and (min-width: $tablet-land-min-width) and (max-width: $tablet-land-max-width) {}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Laptops and desktops (1100-1405px) */
+@media only screen and (min-width: $desk-min-width) and (max-width: $desk-max-width) {}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Large screens (1405px upwards) */
+@media only screen and (min-width: $large-min-width) {}

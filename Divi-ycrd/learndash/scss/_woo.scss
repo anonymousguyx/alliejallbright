@@ -1,0 +1,224 @@
+.product-template-default {
+
+    #main-content {
+        background-color: rgba(0, 0, 0, 0);
+
+        .cart {
+            .quantity.hidden {
+                display: none !important;
+            }
+    
+            .single_add_to_cart_button.button.alt {
+                display: inline-block !important;
+            }
+        }
+
+        
+    }
+
+}
+
+.et_pb_wc_cart_notice {
+
+        
+    .woocommerce-message {
+        background: #0A2D82 !important;
+    
+        a.button.wc-forward {
+            border-width: 0px !important;
+            border-radius: 0px;
+            font-size: 24px;
+            font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif !important;
+            font-weight: 600 !important;
+
+            &:after {
+                font-size: 1.6em;
+            }
+        }
+    }
+
+    .woocommerce-error {
+        margin-bottom: 2em !important;
+
+        a.button.wc-forward {
+            border-width: 0px !important;
+            border-radius: 0px;
+            background-color: #FFE600;
+            color: #FFF !important;
+            font-size: 24px;
+            font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif !important;
+            font-weight: 600 !important;
+
+            &:after {
+                font-size: 1.6em;
+            }
+
+            &:hover {
+                background-color: #FFE600;
+            }
+        }
+    } 
+
+
+}
+
+
+
+
+.product-template-default {
+    .entry-title  {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
+
+/* Change WC Acct Page Column Widths */
+@media only screen and (min-width: 769px) {
+    .woocommerce-account .woocommerce-MyAccount-navigation {
+      width: 22%;
+    }
+    .woocommerce-account .woocommerce-MyAccount-content { 
+      width: 75%;
+    }
+  }
+  /* Style WC Account Endpoint Links */
+  nav.woocommerce-MyAccount-navigation ul {
+    list-style-type: none;
+    padding-left: 0;
+    max-width:200px;
+    font-size: 17px;
+    line-height: 26px;
+    font-family:"Montserrat";
+  }
+
+  nav.woocommerce-MyAccount-navigation ul li {
+    padding: 8px 20px;
+    background-color: rgba(13, 13, 13, 0.2);
+    border-bottom: 1px solid  rgba(0, 0, 0, 1);
+  }
+  nav.woocommerce-MyAccount-navigation ul li.is-active {
+    background-color:  rgb(13, 13, 13, 1);
+  }
+  nav.woocommerce-MyAccount-navigation ul li.is-active a {
+    color: #fff; cursor: default;
+  }
+  nav.woocommerce-MyAccount-navigation ul li.is-active:after {
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    border-left: 14px solid rgb(13, 13, 13, 1);
+    border-bottom: 20px solid transparent;
+    float: right;
+    margin-right: -34px;
+    margin-top: -7px;
+  }
+  nav.woocommerce-MyAccount-navigation ul li:not(.is-active):hover {
+    background-color: rgb(193, 49, 56);
+    a {
+      color: #fff;
+    }
+  }
+  nav.woocommerce-MyAccount-navigation ul li:not(.is-active):hover:after { 
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    border-left: 14px solid  rgb(193, 49, 56);
+    border-bottom: 20px solid transparent;
+    float: right;
+    margin-right: -34px;
+    margin-top: -7px;
+  }
+
+
+  .woocommerce-account .woocommerce-MyAccount-content {
+    font-family:"Montserrat";
+    color: #fff;
+  }
+
+
+
+
+.woo_cart {
+
+  #coupon_code {
+    font-size:17px !important;
+  }
+
+  .woocommerce {
+    font-family:"Montserrat";
+
+    .shop_table {
+      border-radius: 0;
+
+    }
+    .checkout-button { 
+      border-radius: 0;
+    }
+
+    .button {
+      border-radius: 0;
+    }
+    th {
+      color: #fff;
+    }
+
+    td {
+      color: #fff;
+    }
+
+    .cart_totals h3 {
+      color: #c13138 ;
+    }
+  }
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Smartphones in portrait mode (0-479px) */
+@media only screen and (max-width: $mobile-max-width) {}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Smartphones in landscape mode (480-768px) */
+@media only screen and (min-width: $mobile-land-min-width) and (max-width: $mobile-land-max-width) {}
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablets in portrait mode (768-980px) */
+@media only screen and (min-width: $tablet-port-min-width) and (max-width: $tablet-port-max-width) {}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablets in landscape mode (981-1100px) */
+@media only screen and (min-width: $tablet-land-min-width) and (max-width: $tablet-land-max-width) {}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Laptops and desktops (1100-1405px) */
+@media only screen and (min-width: $desk-min-width) and (max-width: $desk-max-width) {}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Large screens (1405px upwards) */
+@media only screen and (min-width: $large-min-width) {}

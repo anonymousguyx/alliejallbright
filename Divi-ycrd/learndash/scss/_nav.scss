@@ -1,0 +1,154 @@
+.mobile_nav.opened .mobile_menu_bar::before {
+    content: "\4d" !important;
+}
+
+header {
+    .container {
+        &.et_menu_container {
+
+            #et-top-navigation {
+                float: right;
+            }
+        }
+    }
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Smartphones in portrait mode (0-479px) */
+@media only screen and (max-width: $mobile-max-width) {
+
+
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Smartphones in landscape mode (480-768px) */
+@media only screen and (min-width: $mobile-land-min-width) and (max-width: $mobile-land-max-width) {
+
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablets in portrait mode (768-980px) */
+@media only screen and (min-width: $tablet-port-min-width) and (max-width: $tablet-port-max-width) {
+
+
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablets in landscape mode (981-1100px) */
+@media only screen and (min-width: $tablet-land-min-width) and (max-width: $tablet-land-max-width) {
+
+
+
+    header {
+        .container {
+            &.et_menu_container {
+    
+                #et-top-navigation {
+                    height: 115px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    nav {
+    
+                    }
+                }
+            }
+        }
+    }
+
+    
+
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Laptops and desktops (1100-1405px) */
+@media only screen and (min-width: $desk-min-width) and (max-width: $desk-max-width) {
+
+    #et-top-navigation {
+        float: none; 
+        text-align: center; 
+        padding-left: 0 !important;
+    }
+    
+    nav.fullwidth-menu-nav {
+       float: none;
+    }
+
+
+    header {
+        .container {
+            &.et_menu_container {
+    
+                #et-top-navigation {
+                    height: 115px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    nav {
+    
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Large screens (1405px upwards) */
+@media only screen and (min-width: $large-min-width) {
+
+    #et-top-navigation {
+        float: none; 
+        text-align: center; 
+        padding-left: 0 !important;
+    }
+    
+    nav.fullwidth-menu-nav {
+       float: none;
+    }
+
+
+    header {
+        .container {
+            &.et_menu_container {
+    
+                #et-top-navigation {
+                    height: 115px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    nav {
+    
+                    }
+                }
+            }
+        }
+    }
+}

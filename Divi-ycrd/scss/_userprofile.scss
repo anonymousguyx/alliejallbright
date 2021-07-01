@@ -1,0 +1,169 @@
+.learndash-wrapper {
+    .ld-profile-summary {
+
+        .ld-profile-card {
+            .ld-profile-heading, .ld-profile-edit-link {
+                font-family:"Montserrat";
+                text-align: center;
+                color: #000000;
+            }
+        }
+        
+
+        .ld-profile-stats {
+            .ld-profile-stat {
+                font-family:"Montserrat";
+                color: #000000 !important;
+                span {
+                    color: #000000 !important;
+                }
+            }
+        }
+
+
+    }
+
+    .ld-item-list.ld-course-list {
+        .ld-section-heading {
+            h3 {
+                font-family:"Montserrat";
+                color: #000000;
+            }
+
+            .ld-item-list-actions {
+                .ld-search-prompt {
+                    font-family:"Montserrat";
+                    color: #000000;
+                }
+
+                .ld-expand-button {
+                    border-radius: 0;
+                    font-family:"Montserrat";
+                }
+            }
+        }
+
+        .ld-item-list-items {
+            .ld-item-list-item  {
+                font-family:"Montserrat";
+                color: #000000;
+            }
+
+        }
+    }
+}
+
+
+
+.page-template-page-dark-mode {
+
+    #main-content {
+        background-color: rgba(0, 0, 0, 0);
+        .page {
+            padding-top: 0 !important;
+            width: 100%;
+            .ld-item-list {
+                margin: 0 auto;
+                h3 {
+                    color: #000000;
+                }
+                .ld-lesson-section-heading {
+                    color: #CF3338;
+                }
+            }
+
+            .learndash-wrapper {
+                
+                .ld-button, .ld-status, .wpProQuiz_button, .btn-join {
+                    border-radius: 0;
+                }
+
+                .ld-course-status {
+                    width: 80%;
+                    margin: 0 auto;
+                }
+
+                .ld-breadcrumbs, .ld-topic-status {
+                    border-radius: 0;
+                    background-color: #0D0D0D;
+                    .ld-breadcrumbs-segments {
+                        a {
+                            color: #000000 !important;
+                        }
+                    }
+                }
+                .ld-item-list {
+                    .ld-item-list-item {
+                        border:none;
+                        border-radius: 0;
+                        background: #0D0D0D;
+                    }
+                    .ld-item-list-item {
+                        .ld-item-name {
+                            color: #000000;
+                        }
+                    }
+
+                }
+                .ld-table-list {
+                    a.ld-table-list-item-preview {
+                        color: #000000;
+                    }
+                }
+                    
+            }
+
+        }
+        
+    }
+
+}
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Smartphones in portrait mode (0-479px) */
+@media only screen and (max-width: $mobile-max-width) {}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Smartphones in landscape mode (480-768px) */
+@media only screen and (min-width: $mobile-land-min-width) and (max-width: $mobile-land-max-width) {}
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablets in portrait mode (768-980px) */
+@media only screen and (min-width: $tablet-port-min-width) and (max-width: $tablet-port-max-width) {}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablets in landscape mode (981-1100px) */
+@media only screen and (min-width: $tablet-land-min-width) and (max-width: $tablet-land-max-width) {}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Laptops and desktops (1100-1405px) */
+@media only screen and (min-width: $desk-min-width) and (max-width: $desk-max-width) {}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Large screens (1405px upwards) */
+@media only screen and (min-width: $large-min-width) {}

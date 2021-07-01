@@ -1,0 +1,514 @@
+/* You can add your own CSS styles here. Use !important to overwrite styles if needed. */
+/* V.1.0.8 */
+@import "./vars";
+@import "./header";
+@import "./nav";
+@import "./legacy";
+@import "./footer";
+@import "./course-grid";
+@import "./learndash";
+@import "./coursesblocks";
+@import "./calendarblock";
+@import "./blogpost";
+@import "./loginmodal";
+@import "./students";
+@import "./accordeonlearn";
+@import "./woo";
+@import "./userprofile";
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+.student_testimonial .et_pb_testimonial_portrait:before {
+    box-shadow: none!important;
+} 
+
+
+/* ------------Champ Blurb module------------------------ */
+.champ_blurb{
+	max-width:580px;
+	background:black;
+	margin:0 auto;
+	padding:0px 0px 25px 0px;
+}
+.blurb_copy{
+	padding:20px;
+	font-size:18px;
+    color: #fff;
+    font-family:"Montserrat";
+}
+.blurb_button{
+	text-align: center;
+}
+.blurb_button a{
+	font-family:"Montserrat";
+	color:white;
+	border:0px;
+	background:#CF3339;
+	font-size:18px;
+    padding: 0.5em 2em;
+}
+.blurb_button .et_pb_button:hover{
+	color:#CF3339;;
+	background-color:#fff!important;
+    padding: 0.5em 2em;
+}
+.blurb_logo{
+    padding:30px 20px 20px 20px ;
+    text-align: center;
+}
+.blurb_logo img{
+    max-height:22.25px;
+    
+}
+/* ------------Champ Blurb module------------------------ */
+.blurbs_main_col {
+    display: flex;
+    flex-direction: column;
+
+    .blurbs_module_col {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        .et_pb_module_inner {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+
+            .champ_blurb {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            
+            .sponsor_blurb {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+        }
+    }
+
+}
+
+.sponsor_blurb{
+	max-width:580px;
+	background:#CF3339;
+    margin:0 auto;
+	padding:0px 0px 25px 0px;
+}
+.sponsor_copy{
+	padding:0px 20px 20px 20px;
+	font-size:18px;
+    color: #fff;
+    font-family:"Montserrat";
+}
+.sponsor_button{
+	text-align: center;
+}
+.sponsor_button a{
+	font-family:"Montserrat";
+	color:white;
+	border:0px;
+	background:#000;
+	font-size:18px;
+    padding: 0.5em 2em;
+}
+.sponsor_button .et_pb_button:hover{
+	color:#CF3339;;
+	background-color:#fff!important;
+    padding: 0.5em 2em;
+}
+.sponsor_logo{
+	margin: 0 auto;
+    max-width: 220px;
+	padding:15px 0px 10px 0px;
+	text-align:center;
+}
+.sponsor_logo img {
+max-height: 45.41px;
+}
+
+/* ------------Sponsor Blurb module------------------------ */
+
+body.page-id-6586{
+    background-color: #eee;
+}
+
+.page.dark-mode, .sfwd-courses-template-default, .product-template-default,
+.sfwd-lessons-template-default,
+.sfwd-topic-template-default,
+.sfwd-quiz-template-default {
+    background-color: #eee;
+    #main-header {
+        background-color: transparent;
+        #top-menu-nav .nav:first-child  {
+            li a {
+                color: rgba(0,0,0,1);
+            }
+        }
+
+        #top-menu-nav .nav .sub-menu  {
+            li a {
+                color:#cf3339;
+            }
+        }
+    }
+
+    #main-content{
+        padding-top:20px;
+        background-color: #f9f9f9;
+    }
+
+    h2 {
+        color: #000;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #fff;
+    }
+
+}
+
+.page {
+
+    .clear-text, .dark-text {
+        h2 {
+
+        }
+    }
+
+    .clear-text {        
+        h2 {
+            color: #fff;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #CF3339;
+        }
+    }
+
+    .dark-text {        
+        h2 {
+            color: #000;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #fff;
+        }
+    }
+
+
+
+
+    .remove-outline {
+        h2 {
+            -webkit-text-stroke-width:unset;
+            -webkit-text-stroke-color: unset;
+        }
+    }
+}
+
+
+.landing_image_title {
+    text-align: center !important;
+    border: none;
+    img {
+        max-height: 90.5px !important;
+        width: auto !important;
+    }
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Smartphones in portrait mode (0-479px) */
+@media only screen and (max-width: $mobile-max-width) {
+
+    .student_testimonial .et_pb_testimonial_description_inner{
+        height: 169px;
+        }
+    .blurb_copy{
+        font-size:14px;
+    }
+    .sponsor_copy{
+
+    }
+    .page.dark-mode, .sfwd-courses-template-default, .product-template-default,
+    .sfwd-lessons-template-default,
+    .sfwd-topic-template-default,
+    .sfwd-quiz-template-default {
+
+        #main-header { 
+            .container {
+                .logo_container {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-start;
+                    .logo_head {
+                        background-image: url("../images/logo_dark.svg");
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Smartphones in landscape mode (480-768px) */
+@media only screen and (min-width: $mobile-land-min-width) and (max-width: $mobile-land-max-width) {
+    .page.dark-mode, .sfwd-courses-template-default, .product-template-default,
+    .sfwd-lessons-template-default,
+    .sfwd-topic-template-default,
+    .sfwd-quiz-template-default {
+
+        #main-header { 
+            .container {
+                .logo_container {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-start;
+                    .logo_head {
+                        background-image: url("../images/logo_dark.svg");
+                    }
+                }
+            }
+        }
+    }
+    .student_testimonial .et_pb_testimonial_description_inner{
+        height: 169px;
+        }
+        .blurb_copy{
+
+        }
+        .sponsor_copy{
+
+        }
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablets in portrait mode (768-980px) */
+@media only screen and (min-width: $tablet-port-min-width) and (max-width: $tablet-port-max-width) {
+
+
+
+    .page.dark-mode, .sfwd-courses-template-default, .product-template-default,
+    .sfwd-lessons-template-default,
+    .sfwd-topic-template-default,
+    .sfwd-quiz-template-default {
+
+        #main-header { 
+            .container {
+                .logo_container {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-start;
+                    .logo_head {
+                        background-image: url("../images/logo_dark.svg");
+                    }
+                }
+            }
+        }
+    }
+    .student_testimonial .et_pb_testimonial_description_inner{
+        height: 94px;
+        }
+        .blurb_copy{
+
+        }
+        .sponsor_copy{
+
+        }
+
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablets in landscape mode (981-1100px) */
+@media only screen and (min-width: $tablet-land-min-width) and (max-width: $tablet-land-max-width) {
+    
+    .blurbs_main_col {
+
+        .blurbs_module_col.push_down {
+
+            .et_pb_module_inner {
+
+                .champ_blurb {
+                    .blurb_button {
+                        position: absolute;
+                        bottom: 0;
+                        margin-bottom: 25px;
+                    }
+                }
+
+                .sponsor_blurb {
+                    .sponsor_button {
+                        position: absolute;
+                        bottom: 0;
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+    
+    }
+
+
+    .page.dark-mode, .sfwd-courses-template-default, .product-template-default,
+    .sfwd-lessons-template-default,
+    .sfwd-topic-template-default,
+    .sfwd-quiz-template-default {
+
+        #main-header { 
+            .container {
+                .logo_container {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-start;
+                    .logo_head {
+                        background-image: url("../images/logo_dark.svg");
+                    }
+                }
+            }
+        }
+    }
+    .student_testimonial .et_pb_testimonial_description_inner{
+        height: 94px;
+        }
+        .blurb_copy{
+
+        }
+        .sponsor_copy{
+
+        }
+
+
+}
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Laptops and desktops (1100-1405px) */
+@media only screen and (min-width: $desk-min-width) and (max-width: $desk-max-width) {
+
+    .blurbs_main_col {
+
+        .blurbs_module_col.push_down {
+
+            .et_pb_module_inner {
+
+                .champ_blurb {
+                    .blurb_button {
+                        position: absolute;
+                        bottom: 0;
+                        margin-bottom: 25px;
+                    }
+                }
+
+                .sponsor_blurb {
+                    .sponsor_button {
+                        position: absolute;
+                        bottom: 0;
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+    
+    }
+    .student_testimonial .et_pb_testimonial_description_inner{
+        height: 154px;
+        }
+        .blurb_copy{
+
+        }
+        .sponsor_copy{
+
+        }
+
+        .blogposts .entry-featured-image-url img {
+            display: block;
+
+            min-width:540px;
+            min-height:357px;
+
+            width: auto;
+            height: auto;
+        }
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Large screens (1405px upwards) */
+@media only screen and (min-width: $large-min-width) {
+
+    .blurbs_main_col {
+
+        .blurbs_module_col.push_down {
+
+            .et_pb_module_inner {
+
+                .champ_blurb {
+                    .blurb_button {
+                        position: absolute;
+                        bottom: 0;
+                        margin-bottom: 25px;
+                    }
+                }
+
+                .sponsor_blurb {
+                    .sponsor_button {
+                        position: absolute;
+                        bottom: 0;
+                        margin-bottom: 25px;
+                    }
+                }
+
+            }
+        }
+    
+    }
+
+
+    .student_testimonial .et_pb_testimonial_description_inner{
+        height: 168px;
+        }
+
+        .blurb_copy{
+
+        }
+        .sponsor_copy{
+
+        }
+
+        .blogposts .entry-featured-image-url img {
+            display: block;
+
+            min-width:540px;
+            min-height:357px;
+
+            width: auto;
+            height: auto;
+        }
+}
+

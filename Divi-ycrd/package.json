@@ -1,0 +1,14 @@
+{
+  "name": "munchkin",
+  "version": "1.0.0",
+  "description": "Divi child theme for Safefit",
+  "scripts": {
+    "scss": "sass --watch scss:css",
+    "scssmin": "sass --watch scss:css --style compressed"
+  },
+  "author": "Modop",
+  "license": "MIT",
+  "dependencies": {
+    "clean-css-cli": "^4.3.0"
+  }
+}
