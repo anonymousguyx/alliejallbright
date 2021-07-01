@@ -201,7 +201,15 @@ function mytheme_et_project_posttype_args( $args ) {
 	));
 }
 
-
-
-
-
+// Shortcode for failed login and non-logged in users
+function login_message() { 
+	if(!is_user_logged_in()){
+		if ( isset($_GET['login']) == "failed" ) {
+			$message = 'Log in failed. Please use <a href="https://ridelikeachampion.com/wp-login.php?action=lostpassword">forget password</a> to reset your password.';
+		} else {
+			$message = 'You are not logged in. Please <a href="https://ridelikeachampion.com/my-account/">log in</a> to access this page.';
+		}
+	}
+	return $message;
+} 
+add_shortcode('login_message', 'login_message'); 
